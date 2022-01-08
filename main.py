@@ -3,8 +3,21 @@ import pandas as pd
 import altair as alt
 from PIL import Image
 
-# image = Image.open('dna_logo.png')
-# st.image(image)
+
+hide_st_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        footer {visibility: hidden;}
+        header {visibility: hidden;}
+        button[title="View fullscreen"] {
+        display: none;
+        }
+        button[title="View fullscreen"]:hover {
+        display: none;
+        }
+        </style>
+        """
+st.markdown(hide_st_style, unsafe_allow_html=True)
 
 
 st.title('Bioinformatics DNA')
@@ -91,14 +104,4 @@ p = p.properties(
     width=alt.Step(80)
 )
 st.write(p)
-
-
-hide_st_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_st_style, unsafe_allow_html=True)
-
 
