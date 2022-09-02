@@ -2,7 +2,7 @@
 DNA nucleotide count web app
 
 ## Table of Content
-- [Egypts tech scene salaries](#egypts-tech-scene-salaries)
+- [Bioinformatics Dna](#Bioinformatics-Dna)
   * [Tools](#tools)
   * [How to run](#how-to-run)
   * [URL](#URL)
@@ -53,7 +53,7 @@ session operates in a virtual environment set up by `virtualenv`.
 
 
 ## URL
-* You can also navigate to the main website without needing to install python, you can navigate it from [here](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/sherif-abdallah/bioinformatics-dna/main/main.py)
+* You can also navigate to the main website without needing to install python, you can navigate it from [here](https://share.streamlit.io/sherif-abdallah/bioinformatics-dna/main/main.py)
 
 ## Author
 [Sherif Abdullah](https://github.com/sherif-abdallah)
