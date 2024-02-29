@@ -19,7 +19,7 @@ DNA nucleotide count web app
 ## How to run
 * Enter the directory where the script is located then type the following to the console
 ```sh
-$ git clone https://github.com/sherif-abdallah/bioinformatics-dna-analysis bioinformatics-dna-analysis
+$ git clone https://github.com/sherifabdallah/bioinformatics-dna-analysis bioinformatics-dna-analysis
 ```
 
 * Install Python 3.8 venv, pip and compiler
@@ -52,8 +52,6 @@ session operates in a virtual environment set up by `virtualenv`.
 * And navigate to `http://127.0.0.1:8501`.
 
 
-## URL
-* You can also navigate to the main website without needing to install python, you can navigate it from [here](https://share.streamlit.io/sherif-abdallah/bioinformatics-dna/main/main.py)
 
 ## Author
-[Sherif Abdullah](https://github.com/sherif-abdallah)
+[Sherif Abdullah](https://github.com/sherifabdallah)
